@@ -1,3 +1,5 @@
+<img src="https://www.incarn.co/logo-1024-medaillon.png" alt="Incarn" width="96" height="96">
+
 # n8n-nodes-incarn
 
 This is an n8n community node for [Incarn](https://www.incarn.co/en/developers). It

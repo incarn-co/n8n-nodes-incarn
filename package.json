@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-incarn",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "n8n node for Incarn: animate old family photos into short lifelike videos.",
   "license": "MIT",
   "homepage": "https://www.incarn.co/en/developers",
