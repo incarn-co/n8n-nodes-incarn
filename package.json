@@ -1,0 +1,58 @@
+{
+  "name": "n8n-nodes-incarn",
+  "version": "0.1.0",
+  "description": "n8n node for Incarn: animate old family photos into short lifelike videos.",
+  "license": "MIT",
+  "homepage": "https://www.incarn.co/en/developers",
+  "keywords": [
+    "n8n-community-node-package",
+    "incarn",
+    "photo animation",
+    "old photos",
+    "genealogy"
+  ],
+  "author": {
+    "name": "Incarn",
+    "email": "support@incarn.co"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incarn-co/n8n-nodes-incarn.git"
+  },
+  "scripts": {
+    "build": "n8n-node build",
+    "build:watch": "tsc --watch",
+    "dev": "n8n-node dev",
+    "lint": "n8n-node lint",
+    "lint:fix": "n8n-node lint --fix",
+    "release": "n8n-node release",
+    "prepublishOnly": "n8n-node prerelease",
+    "test": "n8n-node build && node test/node.test.cjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "strict": true,
+    "credentials": [
+      "dist/credentials/IncarnApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/Incarn/Incarn.node.js"
+    ]
+  },
+  "devDependencies": {
+    "@n8n/node-cli": "^0.53.1",
+    "@types/node": "^22.0.0",
+    "axios": "1.15.0",
+    "eslint": "9.32.0",
+    "n8n-workflow": "2.16.0",
+    "prettier": "3.6.2",
+    "release-it": "^19.0.4",
+    "typescript": "5.9.2"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
+}

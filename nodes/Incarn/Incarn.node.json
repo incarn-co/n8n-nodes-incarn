@@ -1,0 +1,10 @@
+{
+	"node": "n8n-nodes-incarn.incarn",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing & Content", "Miscellaneous"],
+	"resources": {
+		"credentialDocumentation": [{ "url": "https://www.incarn.co/en/developers" }],
+		"primaryDocumentation": [{ "url": "https://www.incarn.co/en/developers/docs" }]
+	}
+}
